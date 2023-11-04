@@ -4,13 +4,13 @@ def multiplicacion(a, b):
   Esta función devuelve el producto entre a y b.
 
   Args:
-  input_string (str): El string en el que se contarán los caracteres.
+  a, b (num): Valores que se multiplicarán entre sí.
 
-  Returns:
-  int: El número de caracteres en el string de entrada.
+  Return:
+  (num): Resultado de la multiplicación entre a y b.
 
   Ejemplo:
-  >>> count_characters("Hola, mundo!")
+  >>> multiplicacion(3, 4)
   12
   """
   return a * b
