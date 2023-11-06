@@ -10,10 +10,10 @@ def seno(a,t):
   a (num), t (char)
 
   Return: 
-  >>>Seno del ángulo (num)
+  Seno del ángulo (num)
 
   Ejemplo:
-   seno(30,D)
+  >>>seno(30,D)
   0.5
   """
   # Condicion que establece el formato de entrada del ángulo
