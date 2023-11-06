@@ -10,7 +10,7 @@ def seno(a,t):
   a (num), t (char)
 
   Return: 
-  Seno del ángulo (num)
+  >>>Seno del ángulo (num)
 
   Ejemplo:
    seno(30,D)
