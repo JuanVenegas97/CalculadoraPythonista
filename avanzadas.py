@@ -1,4 +1,5 @@
 import math
+
 # Tangente 
 def tangente(a,t):
 
@@ -15,6 +16,7 @@ def tangente(a,t):
   Ejemplo:
   >>>tangente(45,D)
   1
+
   """
   # Condicion que establece el formato de entrada del ángulo
 
@@ -23,4 +25,5 @@ def tangente(a,t):
   else:
     a = math.radians(float(a))
 	
-  return math.sin(a)
+  return math.tan(a)
+
