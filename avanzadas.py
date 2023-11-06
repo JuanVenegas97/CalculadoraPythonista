@@ -1,26 +1,22 @@
-import math
-# Seno 
-def seno(a,t):
+# Logaritmo 
+def logaritmo(a,b):
   """
-  Esta función calcula la tangente de un ángulo a, cuyo formato de entrada puede ser:
-  en Radianes (R) o en Grados (D) 
+  Esta función calcula el logaritmo de un número a, en base b 
 
   Args:
-  a (num), t (char)
+  a (num), b (num)
 
   Return: 
-  Tangente del ángulo (num)
+  Logaritmo en base b de a  (num)
 
   Ejemplo:
-  >>>seno(30,D)
-  0.5
+  >>>logaritmo(8,4)
+  1.5
   """
   # Condicion que establece el formato de entrada del ángulo
 
-  if t == 'R':
-    a = float(a)
-  else:
-    a = math.radians(float(a))
-	
-  return math.sin(a)
+  if numero > 0 and base > 0 and base != 1:
+        return math.log(numero, base)
+    else:
+        Return "El número y la base deben ser mayores que 0 y la base no puede ser igual a 1."
 
