@@ -1,6 +1,6 @@
-def atangente(f_t,t):
-    if t == 'R':
-        return math.atan(float(f_t))
+def logaritmo(a, base):
+    if a > 0 and base > 0 and base != 1:
+        return math.log(a, base)
     else:
-        return math.atan(float(f_t))*180/(math.pi)
+        return "Error: Argumentos inválidos para el logaritmo"
 
