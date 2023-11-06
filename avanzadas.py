@@ -1,16 +1,15 @@
 import math
 # Seno 
 def seno(a,t):
-
   """
-  Esta función calcula el seno de un ángulo a, cuyo formato de entrada puede ser:
+  Esta función calcula la tangente de un ángulo a, cuyo formato de entrada puede ser:
   en Radianes (R) o en Grados (D) 
 
   Args:
   a (num), t (char)
 
   Return: 
-  Seno del ángulo (num)
+  Tangente del ángulo (num)
 
   Ejemplo:
   >>>seno(30,D)
@@ -24,3 +23,4 @@ def seno(a,t):
     a = math.radians(float(a))
 	
   return math.sin(a)
+
