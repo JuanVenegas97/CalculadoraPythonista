@@ -166,12 +166,32 @@ def logaritmo(a,b):
   """
   # Condicion que establece el formato de entrada del ángulo
 
-  if numero > 0 and base > 0 and base != 1:
-        return math.log(numero, base)
+  if a > 0 and b > 0 and b != 1:
+        return math.log(a, b)
     else:
         Return "El número y la base deben ser mayores que 0 y la base no puede ser igual a 1."
 
 
+# Logaritmo Natural 
+def logaritmonatural(a):
+  """
+  Esta función calcula el logaritmo natural de un número a
 
+  Args:
+  a (num)
+
+  Return: 
+  Logaritmo natural de a  (num)
+
+  Ejemplo:
+  >>>logaritmonatural(5)
+  1.609437912
+  """
+  # Condicion que establece el formato de entrada del número
+
+  if a > 0 
+        return math.log(a)
+    else:
+        Return "El número  deben ser mayores que 0."
 
 
