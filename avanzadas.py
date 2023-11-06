@@ -1,5 +1,5 @@
 import math
-# Cseno 
+# Coseno 
 def coseno(a,t):
 
   """
@@ -24,3 +24,4 @@ def coseno(a,t):
     a = math.radians(float(a))
 	
   return math.cos(a)
+
