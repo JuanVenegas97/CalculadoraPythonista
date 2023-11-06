@@ -1,26 +1,22 @@
-import math
-# Seno 
-def seno(a,t):
+# Arcocoseno 
+def arcocoseno(a,t):
   """
-  Esta función calcula la tangente de un ángulo a, cuyo formato de entrada puede ser:
+  Esta función calcula el arcocoseno de un número a, cuyo formato de salida puede ser:
   en Radianes (R) o en Grados (D) 
 
   Args:
   a (num), t (char)
 
   Return: 
-  Tangente del ángulo (num)
+  Arcoseno del ángulo (num)
 
   Ejemplo:
-  >>>seno(30,D)
-  0.5
+  >>>arcocoseno(0.5,D)
+  60
   """
   # Condicion que establece el formato de entrada del ángulo
 
   if t == 'R':
-    a = float(a)
+    return acos(float(a))
   else:
-    a = math.radians(float(a))
-	
-  return math.sin(a)
-
+    return acos(float(a))*180/math.pi
