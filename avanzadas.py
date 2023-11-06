@@ -1,5 +1,6 @@
-def tangente(a,t):
+def aseno(f_t,t):
     if t == 'R':
-        return math.tan(float(a))
+        return math.asin(float(f_t))
     else:
-        return math.tan(math.radians(float(a)))
+        return math.asin(float(f_t))*180/(math.pi)
+
