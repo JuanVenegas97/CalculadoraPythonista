@@ -1,6 +1,5 @@
-def aseno(f_t,t):
+def arcocoseno(f_t,t):
     if t == 'R':
-        return math.asin(float(f_t))
+        return math.acos(float(f_t))
     else:
-        return math.asin(float(f_t))*180/(math.pi)
-
+        return math.acos(float(f_t))*180/(math.pi)
