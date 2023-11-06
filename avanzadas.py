@@ -1,4 +1,4 @@
-def acoseno(f_t,t):
+def arcocoseno(f_t,t):
     if t == 'R':
         return math.acos(float(f_t))
     else:
