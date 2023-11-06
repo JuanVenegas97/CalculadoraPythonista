@@ -3,3 +3,4 @@ def logaritmo(a, base):
         return math.log(a, base)
     else:
         return "Error: Argumentos inválidos para el logaritmo"
+
