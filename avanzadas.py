@@ -1,8 +1,6 @@
 import math
-
-# Tangente 
-def tangente(a,t):
-
+# Seno 
+def seno(a,t):
   """
   Esta función calcula la tangente de un ángulo a, cuyo formato de entrada puede ser:
   en Radianes (R) o en Grados (D) 
@@ -14,9 +12,8 @@ def tangente(a,t):
   Tangente del ángulo (num)
 
   Ejemplo:
-  >>>tangente(45,D)
-  1
-
+  >>>seno(30,D)
+  0.5
   """
   # Condicion que establece el formato de entrada del ángulo
 
@@ -25,5 +22,5 @@ def tangente(a,t):
   else:
     a = math.radians(float(a))
 	
-  return math.tan(a)
+  return math.sin(a)
 
