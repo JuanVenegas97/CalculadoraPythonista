@@ -1,4 +1,16 @@
 # CalculadoraPythonista
+
+Calculadora científica en Python que puede realizar operaciones matemáticas avanzadas, como funciones trigonométricas (seno, coseno, tangente), exponenciación, logaritmos, etc.
+
+## Funciones incluidas
+
+Las funciones implementadas en esta calculadora son versiones adaptadas y mejoradas de algunas funciones que se pueden obtener rápidamente con modelos de inteligencia artificial (como ChatGPT). Se crearon dos archivos para las funciones, separando éstas según complejidad de la operación que realizan. Estos archivos son *basicas.py* y *avanzadas.py* 
+
+#### Suma: 
+
+
+
+
 El presente proyecto corresponde al desarrollo de una Calculadora científica en Python que puede realizar operaciones matemáticas básicas y avanzadas, como operatoria aritmética básica funciones trigonométricas (seno, coseno, tangente), exponenciación, logaritmos, etc.
 Título del Proyecto: Un título descriptivo que identifica el proyecto.
 
@@ -33,3 +45,4 @@ Capturas de Pantalla: Si es relevante, incluye capturas de pantalla que muestren
 Es importante que el README sea claro, conciso y bien organizado. Utiliza el formato Markdown para formatear el texto y añadir elementos como encabezados, listas, enlaces y código de manera legible.
 
 Recuerda que un buen README es esencial para atraer a colaboradores y usuarios a tu proyecto, así que dedica tiempo a crear uno que sea informativo y útil.
+
