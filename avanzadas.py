@@ -1,4 +1,5 @@
 import math
+#AVANZADAS 
 # Seno 
 def seno(a,t):
 
