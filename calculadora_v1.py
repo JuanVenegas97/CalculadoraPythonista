@@ -4,6 +4,8 @@ import math
 import basicas
 import avanzadas
 
+
+
 # Función para mostrar el menú y obtener la opción del usuario
 def mostrar_menu():
     print("\nOpciones:")
@@ -26,13 +28,13 @@ def mostrar_menu():
     print("17. Salir")
     return input("Seleccione una opción de 1 a 17: ")
 
+
 while True:
     opcion = mostrar_menu()
 
     if opcion == '17':
         print("¡Hasta luego!")
         break
-
 
 
     if opcion in ('1', '2', '3', '4', '5', '6', '7', '8'):
@@ -99,4 +101,10 @@ while True:
 
 
          print("Resultado:", resultado)
+
+    # Preguntar al usuario si desea realizar otra operación
+    otra_operacion = input("¿Desea realizar otra operación? (Sí/No): ").strip().lower()
+    if otra_operacion != 'si' and otra_operacion != 'sí':
+        print("¡Hasta luego!")
+        break
 
