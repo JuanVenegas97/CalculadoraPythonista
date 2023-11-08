@@ -1,6 +1,5 @@
 # CalculadoraPythonista
-El presente proyecto corresponde al desarrollo de una Calculadora científica en Python que puede realizar operaciones matemáticas básicas y avanzadas, como operatoria aritmética básica funciones trigonométricas (seno, coseno, tangente), exponenciación, logaritmos, etc.
-Título del Proyecto: Un título descriptivo que identifica el proyecto.
+El presente proyecto corresponde al desarrollo de una Calculadora científica en Python que puede realizar operaciones matemáticas básicas y avanzadas, como operatoria aritmética, funciones trigonométricas exponenciales y logarítmicas. En lineas generales, se programó la calculadora  en base a llamadas de funciones que se encu3ntren en  dos librerias, basicas.py y avanzadas.py,  que contienen las funciones especificas que se ejecutan en un código principal. Para mas detalles ver  a continuación  
 
 Descripción: Una descripción concisa del propósito y el alcance del proyecto.
 
