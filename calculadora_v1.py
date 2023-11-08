@@ -26,7 +26,7 @@ def mostrar_menu():
     print("15. Logaritmo Natural")
     print("16. Logaritmo")
     print("17. Salir")
-    return input("Seleccione una opción de 1 a 17: ")
+    return input("\nSeleccione una opción de 1 a 17: ")
 
 
 while True:
@@ -100,10 +100,10 @@ while True:
             resultado = avanzadas.logaritmo(a, b)
 
 
-         print("Resultado:", resultado)
+         print("\nResultado:", resultado)
 
     # Preguntar al usuario si desea realizar otra operación
-    otra_operacion = input("¿Desea realizar otra operación? (Sí/No): ").strip().lower()
+    otra_operacion = input("\n¿Desea realizar otra operación? (Sí/No): ").strip().lower()
     if otra_operacion != 'si' and otra_operacion != 'sí':
         print("¡Hasta luego!")
         break
