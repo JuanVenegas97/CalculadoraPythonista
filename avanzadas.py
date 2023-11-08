@@ -1,12 +1,13 @@
+import math
 # Seno 
 def seno(a,t):
 
   """
   Esta función calcula el seno de un ángulo a, cuyo formato de entrada puede ser:
-  en Radianes (R) o en Grados (D) 
+  en Radianes (1) o en Grados (0) 
 
   Args:
-  a (num), t (char)
+  a (num), t (num)
 
   Return: 
   CSeno del ángulo (num)
@@ -17,11 +18,12 @@ def seno(a,t):
   """
   # Condicion que establece el formato de entrada del ángulo
 
-  if t == 'R':
+  if t == 1:
     a = float(a)
-  else:
+  elif t == 0:
     a = math.radians(float(a))
-	
+  else:
+    print("Debe ingresar R para radianes o D para grados sexagesimales")
   return math.sin(a)
 
 # Coseno 
@@ -29,10 +31,10 @@ def coseno(a,t):
 
   """
   Esta función calcula el coseno de un ángulo a, cuyo formato de entrada puede ser:
-  en Radianes (R) o en Grados (D) 
+  en Radianes (1) o en Grados (0) 
 
   Args:
-  a (num), t (char)
+  a (num), t (num)
 
   Return: 
   Coseno del ángulo (num)
@@ -43,10 +45,12 @@ def coseno(a,t):
   """
   # Condicion que establece el formato de entrada del ángulo
 
-  if t == 'R':
+  if t == 1:
     a = float(a)
-  else:
+  elif t == 0:
     a = math.radians(float(a))
+  else:
+    print("Debe ingresar R para radianes o D para grados sexagesimales")
 	
   return math.cos(a)
 
@@ -55,10 +59,10 @@ def tangente(a,t):
 
   """
   Esta función calcula la tangente de un ángulo a, cuyo formato de entrada puede ser:
-  en Radianes (R) o en Grados (D) 
+  en Radianes (1) o en Grados (0) 
 
   Args:
-  a (num), t (char)
+  a (num), t (num)
 
   Return: 
   Tangente del ángulo (num)
@@ -69,10 +73,12 @@ def tangente(a,t):
   """
   # Condicion que establece el formato de entrada del ángulo
 
-  if t == 'R':
+  if t == 1:
     a = float(a)
-  else:
+  elif t == 0:
     a = math.radians(float(a))
+  else:
+    print("Debe ingresar 1 para radianes o 0 para grados sexagesimales")
 	
   return math.tan(a)
 
@@ -83,30 +89,36 @@ def tangente(a,t):
 def arcoseno(a,t):
   """
   Esta función calcula el arcoseno de un número a, cuyo formato de salida puede ser:
-  en Radianes (R) o en Grados (D) 
+  en Radianes (1) o en Grados (0) 
 
   Args:
-  a (num), t (char)
+  a (num), t (num)
 
   Return: 
   Arcoseno del ángulo (num)
 
   Ejemplo:
-  >>>arcoseno(0.5,D)
+  >>>arcoseno(0.5,0)
   30
   """
-  # Condicion que establece el formato de entrada del ángulo
+  # Condicion que establece el formato del argumento y de la salida
 
-  if t == 'R':
-    return asin(float(a))
+  if a <-1 or a > 1:
+    return print("No es un argumento válido")
   else:
-    return asin(float(a))*180/math.pi
+    if t == 1:
+      return math.asin(float(a))
+    elif t == 0:
+      return math.asin(float(a))*180/math.pi
+    else:
+      print("Debe ingresar 1 para radianes o 0 para grados sexagesimales")
+
   
   # Arcocoseno 
 def arcocoseno(a,t):
   """
   Esta función calcula el arcocoseno de un número a, cuyo formato de salida puede ser:
-  en Radianes (R) o en Grados (D) 
+  en Radianes (1) o en Grados (0) 
 
   Args:
   a (num), t (char)
@@ -118,35 +130,40 @@ def arcocoseno(a,t):
   >>>arcocoseno(0.5,D)
   60
   """
-  # Condicion que establece el formato de entrada del ángulo
+  # Condicion que establece el formato del argumento y de la salida
 
-  if t == 'R':
-    return acos(float(a))
+  if a <-1 or a > 1:
+    return print("No es un argumento válido")
   else:
-    return acos(float(a))*180/math.pi
+    if t == 1:
+      return math.acos(float(a))
+    elif t == 0:
+      return math.acos(float(a))*180/math.pi
+    else:
+      print("Debe ingresar 1 para radianes o 0 para grados sexagesimales")
   
 # Arcotangente 
 def arcotangente(a,t):
   """
   Esta función calcula el arcotangente de un número a, cuyo formato de salida puede ser:
-  en Radianes (R) o en Grados (D) 
+  en Radianes (1) o en Grados (0) 
 
   Args:
-  a (num), t (char)
+  a (num), t (num)
 
   Return: 
   Arcoseno del ángulo (num)
 
   Ejemplo:
-  >>>arcotangente(1,D)
+  >>>arcotangente(1,0)
   45
   """
   # Condicion que establece el formato de entrada del ángulo
 
   if t == 'R':
-    return atan(float(a))
+    return math.atan(float(a))
   else:
-    return atan(float(a))*180/math.pi
+    return math.atan(float(a))*180/math.pi
 
 
 # Logaritmo 
@@ -167,9 +184,9 @@ def logaritmo(a,b):
   # Condicion que establece el formato de entrada del ángulo
 
   if a > 0 and b > 0 and b != 1:
-        return math.log(a, b)
-    else:
-        Return "El número y la base deben ser mayores que 0 y la base no puede ser igual a 1."
+      return math.log(a, b)
+  else:
+      return "El número y la base deben ser mayores que 0 y la base no puede ser igual a 1."
 
 
 # Logaritmo Natural 
@@ -189,9 +206,9 @@ def logaritmonatural(a):
   """
   # Condicion que establece el formato de entrada del número
 
-  if a > 0 
-        return math.log(a)
-    else:
-        Return "El número  deben ser mayores que 0."
+  if a > 0 :
+    return math.log(a)
+  else: 
+    return "El número  deben ser mayor que 0."
 
 

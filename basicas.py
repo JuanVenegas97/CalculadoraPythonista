@@ -1,4 +1,7 @@
+import math
+#BASICAS  
 # Raíz cuadrada
+
 def raiz_cuadrada(numero):
   """
   Esta función calcula la raíz cuadrada de un número.
