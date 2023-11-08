@@ -4,20 +4,18 @@ import math
 import basicas
 import avanzadas
 
-
-
 # Función para mostrar el menú y obtener la opción del usuario
 def mostrar_menu():
-    print("Opciones:")
-    print("1. Suma")
-    print("2. Resta")
-    print("3. Multiplicación")
-    print("4. División")
-    print("5. Raíz Cuadrada")
-    print("6. Potencia")
-    print("7. División parte entera")
-    print("8. División resto")
-    print("9. Seno")
+    print("\nOpciones:")
+    print(" 1. Suma")
+    print(" 2. Resta")
+    print(" 3. Multiplicación")
+    print(" 4. División")
+    print(" 5. Raíz Cuadrada")
+    print(" 6. Potencia")
+    print(" 7. División parte entera")
+    print(" 8. División resto")
+    print(" 9. Seno")
     print("10. coseno")
     print("11. Tangente")
     print("12. Arcoseno")
