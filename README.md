@@ -1,34 +1,49 @@
+# CalculadoraPythonista
+
+## Tabla de Contenidos : 
+
+1 Descripción  
+2 Instalación  
+3 Uso
+3 Operaciones Básicas  
+4 Funciones Avanzadas   
+5 Prerrequisitos  
+6 Contribución  
+7 Licencia  
+8 Autores  
+9 Estado del proyecto  
+10 Agradecimientos   
+11 Notas de la versión 
 
 
-Descripción: Una descripción concisa del propósito y el alcance del proyecto.
+## Descripción: 
+El presente proyecto corresponde al desarrollo de una Calculadora científica en Python que puede realizar operaciones matemáticas básicas y avanzadas, como operatoria aritmética, funciones trigonométricas exponenciales y logarítmicas. En líneas generales, se programó la calculadora  en base a llamadas de funciones hacia dos librerías externas que contienen las funciones, las que se ejecutan en un código principal 
+Título del Proyecto: Un título descriptivo que identifica el proyecto.
 
-Tabla de Contenidos: Una lista de secciones en el README con enlaces a cada sección para facilitar la navegación.
 
-Instalación: Instrucciones claras sobre cómo instalar y configurar el proyecto en una máquina local.
+## Instalación: 
+La Calculadora Pythonista   no requiere de mayor instalación, salvo que el programa principal y las librerías se encuentren en el mismo directorio donde Python ejecuta el programa o en su defecto, que se encuentren en la ruta de acceso de programa.
 
-Uso: Instrucciones detalladas sobre cómo utilizar el proyecto. Puedes incluir ejemplos de código, comandos y capturas de pantalla si es relevante.
+## Uso: 
+Esta versión de la  Calculadora Pythonista, permite hacer las operaciones aritméticas básicas de suma resta multiplicación división, además de dos opciones de división adicionales, parte entera y resto del cociente. También permite el cálculo de funciones trigonométricas y sus correspondientes funciones  inversas, además, admite ángulos en sistema de radianes y grados sexagesimales, adicionalmente, calcula logaritmos en distintas bases y una opción especial para logaritmo natural. Para utilizar la Calculadora Pythonista, simplemente se debe ejecutar el programa principal Calculadora y se desplegarán en la consola las distintas operaciones, funciones y una opción de salida, mientras el usuario no de la instrucción de salida (17), la calculadora seguirá activa esperando una opción elegida por el usuario.
 
-Prerrequisitos: Lista de software, bibliotecas y dependencias necesarias para ejecutar el proyecto.
+## Prerrequisitos: 
+Para poder usar la Calculadora Pythonista, es necesario ejecutarla en la consola de un intérprete de Python versión 3.7 y como se indicó anteriormente, que estén instaladas las librerías de las funciones externas en el mismo directorio o ruta de acceso del programa principal  Lista de software, bibliotecas y dependencias necesarias para ejecutar el proyecto.
 
-Contribución: Directrices sobre cómo otros desarrolladores pueden contribuir al proyecto. Esto puede incluir información sobre cómo informar problemas, enviar solicitudes de extracción y seguir convenciones de estilo de código.
+## Contribución: 
+La estructura del código de la Calculadora Pythonista es muy simple, se basa en llamadas a funciones que se definen en librerías externas , lo que facilita implementar nuevas características, mejorando o agregando nuevas funciones a las librerías  y hacerles cabida en la estructura del código del programa principal.  
 
-Licencia: Información sobre la licencia bajo la cual se distribuye el proyecto, junto con un enlace al archivo de licencia si es aplicable.
+## Licencia: 
+Este código es libre se  puede utilizar y distribuir sin limitaciones, siempre y cuando no sea con fines de lucro ni beneficio económico alguno.
 
-Autor(es): Información sobre el autor o los autores del proyecto, incluyendo enlaces a perfiles de GitHub u otros contactos.
+## Autores: 
+Los autores de este código son estudiantes de la asignatura de Programación Avanzada del programa de Magister en simulación computacional que dicta la Pontificia Universidad Católica de Valparaíso. Juan Venegas y Claudio Guzmán
 
-Estado del Proyecto: Un indicador del estado actual del proyecto, como si está en desarrollo activo, en fase de mantenimiento, o si es un proyecto abandonado.
+## Estado del Proyecto: 
+El proyecto está terminado, pero siempre disponible para aportes y modificaciones.
 
-Agradecimientos: Agradecimientos a personas, proyectos o recursos que han contribuido de alguna manera al proyecto.
+## Agradecimientos: 
+Agradecimientos a nuestro profesor Bady Gana por sus clases, tips y videos muy aclaradores sin los cuales hubiese sido muy difícil hacer este trabajo 
 
-FAQ (Preguntas Frecuentes): Respuestas a preguntas comunes que los usuarios pueden tener sobre el proyecto.
-
-Notas de Versión: Información sobre las versiones anteriores y las actualizaciones recientes del proyecto.
-
-Ejemplos: Si el proyecto es una biblioteca, herramienta o marco, puedes proporcionar ejemplos de código que muestren cómo usarlo.
-
-Capturas de Pantalla: Si es relevante, incluye capturas de pantalla que muestren cómo se ve el proyecto en acción.
-
-Es importante que el README sea claro, conciso y bien organizado. Utiliza el formato Markdown para formatear el texto y añadir elementos como encabezados, listas, enlaces y código de manera legible.
-
-Recuerda que un buen README es esencial para atraer a colaboradores y usuarios a tu proyecto, así que dedica tiempo a crear uno que sea informativo y útil.
-
+## Notas de Versión: 
+Información sobre las versiones anteriores y las actualizaciones recientes del proyecto.
