@@ -108,4 +108,9 @@ El proyecto está terminado, pero siempre disponible para aportes y modificacion
 Agradecimientos a nuestro profesor Bady Gana por sus clases, tips y videos muy aclaradores sin los cuales hubiese sido muy difícil hacer este trabajo 
 
 ## 15 Notas de Versión: 
+<<<<<<< HEAD
 Información sobre las versiones anteriores y las actualizaciones recientes del proyecto.
+=======
+Información sobre las versiones anteriores y las actualizaciones recientes del proyecto.
+
+>>>>>>> e6d8e925ac6a7a5deaf5c5d8db075b5181897dd2
