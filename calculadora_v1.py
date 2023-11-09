@@ -8,7 +8,7 @@ import avanzadas
 
 # Función para mostrar el menú y obtener la opción del usuario
 def mostrar_menu():
-    print("\nOpciones:")
+    print("\nOperaciones:")
     print(" 1. Suma")
     print(" 2. Resta")
     print(" 3. Multiplicación")
@@ -18,7 +18,7 @@ def mostrar_menu():
     print(" 7. División parte entera")
     print(" 8. División resto")
     print(" 9. Seno")
-    print("10. coseno")
+    print("10. Coseno")
     print("11. Tangente")
     print("12. Arcoseno")
     print("13. Arcocoseno")
@@ -33,7 +33,7 @@ while True:
     opcion = mostrar_menu()
 
     if opcion == '17':
-        print("¡Hasta luego!")
+        print("\n¡Hasta luego!\n")
         break
 
 
@@ -63,7 +63,7 @@ while True:
         print("Resultado:", resultado)
 
     if opcion in ('9', '10', '11'):
-        t = float(input("Ingrese  1 para radian 0 para grado: "))
+        t = float(input(" 0. Grados\n 1. Radianes\nElija una opción (0/1): "))
         a = float(input("Ingrese el ángulo: "))
 
         if opcion == '9':
@@ -76,7 +76,7 @@ while True:
         print("Resultado:", resultado)
 
     if opcion in ('12', '13', '14'):
-        t = float(input("Ingrese  1 para radian 0 para grado: "))
+        t = float(input(" 0. Grados\n 1. Radianes\nElija una opción (0/1): "))
         a = float(input("Ingrese el número: "))
 
         if opcion == '12':
@@ -105,6 +105,6 @@ while True:
     # Preguntar al usuario si desea realizar otra operación
     otra_operacion = input("\n¿Desea realizar otra operación? (Sí/No): ").strip().lower()
     if otra_operacion != 'si' and otra_operacion != 'sí':
-        print("¡Hasta luego!")
+        print("\n¡Hasta luego!\n")
         break
 
